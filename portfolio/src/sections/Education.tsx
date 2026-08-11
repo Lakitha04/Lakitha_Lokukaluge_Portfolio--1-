@@ -26,7 +26,7 @@ export default function Education() {
             <div>
               <h3 className="text-base font-semibold text-ink">GCE Advanced Level — Physical Science</h3>
               <p className="mt-1 font-mono text-sm text-gold-soft">Ananda College, Colombo</p>
-              <p className="mt-1 text-xs text-ink-faint">2016 — 2019</p>
+              <p className="mt-1 text-xs text-ink-faint">2006 — 2019</p>
             </div>
           </div>
         </div>
