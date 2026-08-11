@@ -7,5 +7,6 @@ import react from '@vitejs/plugin-react'
 // custom domain, change this back to '/'.
 export default defineConfig({
   plugins: [react()],
-  base: '/Lakitha_Lokukaluge_Portfolio/',
+  
+  base: './',
 })
