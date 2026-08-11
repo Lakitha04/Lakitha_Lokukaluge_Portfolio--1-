@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-ink font-body antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 162, 76, 0.08), transparent),
+      radial-gradient(ellipse 60% 40% at 90% 10%, rgba(166, 48, 59, 0.06), transparent);
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    background: rgba(212, 162, 76, 0.25);
+    color: #f4ead6;
+  }
+
+  :focus-visible {
+    outline: 2px solid #d4a24c;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto max-w-content px-6 sm:px-8 lg:px-10;
+  }
+
+  .belt-rule {
+    @apply relative h-px w-full overflow-hidden bg-surface-border;
+  }
+  .belt-rule::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 64px;
+    background: linear-gradient(90deg, transparent, #d4a24c, transparent);
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.28em] text-gold/80;
+  }
+
+  .card {
+    @apply rounded-xl border border-surface-border bg-surface/70 backdrop-blur-sm transition-colors duration-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md bg-gold px-5 py-3 font-mono text-sm font-medium text-bg transition-all duration-300 hover:bg-gold-soft hover:shadow-[0_0_0_1px_rgba(212,162,76,0.4)] active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-md border border-surface-border bg-transparent px-5 py-3 font-mono text-sm font-medium text-ink transition-all duration-300 hover:border-gold/50 hover:text-gold active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-md border border-transparent px-4 py-2.5 font-mono text-sm text-ink-dim transition-all duration-300 hover:text-gold active:scale-[0.98];
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #242932;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a4150;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141821"/>
+      <stop offset="100%" stop-color="#0a0c0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#g3)"/>
+  <rect x="150" y="70" width="300" height="220" rx="10" fill="#12151b" stroke="#242932"/>
+  <g font-family="monospace" font-size="13" fill="#9aa1ad">
+    <rect x="175" y="100" width="16" height="16" rx="3" fill="none" stroke="#d4a24c"/>
+    <path d="M179 108 l3 4 l6 -8" stroke="#d4a24c" stroke-width="2" fill="none"/>
+    <line x1="205" y1="108" x2="360" y2="108" stroke="#3a4150"/>
+
+    <rect x="175" y="140" width="16" height="16" rx="3" fill="none" stroke="#d4a24c"/>
+    <path d="M179 148 l3 4 l6 -8" stroke="#d4a24c" stroke-width="2" fill="none"/>
+    <line x1="205" y1="148" x2="390" y2="148" stroke="#3a4150"/>
+
+    <rect x="175" y="180" width="16" height="16" rx="3" fill="none" stroke="#5c636f"/>
+    <line x1="205" y1="188" x2="340" y2="188" stroke="#3a4150"/>
+
+    <rect x="175" y="220" width="16" height="16" rx="3" fill="none" stroke="#5c636f"/>
+    <line x1="205" y1="228" x2="370" y2="228" stroke="#3a4150"/>
+  </g>
+  <text x="300" y="320" font-family="monospace" font-size="15" fill="#5c636f" text-anchor="middle" letter-spacing="2">TODO MANAGEMENT APP</text>
+</svg>

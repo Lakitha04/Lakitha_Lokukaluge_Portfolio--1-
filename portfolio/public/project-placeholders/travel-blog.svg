@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141821"/>
+      <stop offset="100%" stop-color="#0a0c0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#g2)"/>
+  <path d="M0 250 Q150 190 300 240 T600 220 V360 H0 Z" fill="#191d24"/>
+  <path d="M0 280 Q150 240 300 270 T600 260 V360 H0 Z" fill="#12151b"/>
+  <circle cx="470" cy="90" r="34" fill="#d4a24c" opacity="0.85"/>
+  <g stroke="#e8bd75" stroke-width="1" opacity="0.5">
+    <line x1="300" y1="130" x2="300" y2="250"/>
+    <path d="M300 130 L340 150" />
+    <path d="M300 160 L350 180" />
+  </g>
+  <text x="300" y="320" font-family="monospace" font-size="15" fill="#5c636f" text-anchor="middle" letter-spacing="2">SRI LANKA TRAVEL BLOG</text>
+</svg>
