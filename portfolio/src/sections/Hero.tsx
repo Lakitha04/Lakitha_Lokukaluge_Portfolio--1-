@@ -16,10 +16,7 @@ export default function Hero() {
 
       <div className="section-shell grid grid-cols-1 items-center gap-16 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="animate-fadeUp">
-          <span className="eyebrow inline-flex items-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-            Available for opportunities
-          </span>
+          
 
           <h1 className="mt-6 text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl lg:text-6xl">
             Hi, I&apos;m Lakitha <span className="inline-block"></span>

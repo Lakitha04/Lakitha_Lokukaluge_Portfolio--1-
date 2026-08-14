@@ -8,7 +8,7 @@ export interface Project {
   demo?: string
 }
 
-.
+
 const base = import.meta.env.BASE_URL
 
 // Replace the placeholder image paths and links below with your own as you go.

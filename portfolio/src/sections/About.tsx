@@ -51,11 +51,9 @@ export default function About() {
 
           <div>
             <p className="reveal text-base leading-relaxed text-ink-dim sm:text-lg" data-reveal>
-              I&apos;m a fresh IT graduate from SLIIT with hands-on experience across the full application
-              lifecycle — from wireframe to deployed feature. During my six-month internship at NCINGA
-              (PVT) Ltd, I built and maintained backend REST APIs in Spring Boot, worked with MongoDB for
-              data storage, and shipped React and Redux-powered frontend features that connected cleanly
-              to those services.
+             I’m a BSc (Hons) in Information Technology graduate from SLIIT, and I have worked at NCINGA.
+Throughout my academic and professional journey, I’ve gained hands-on experience in Full-Stack Development and karate coaching, while developing strong skills in teamwork, communication, and collaboration within fast-paced environments.
+I’m passionate about creating impactful solutions and continuously growing as a professional.
             </p>
             <p className="reveal mt-4 text-base leading-relaxed text-ink-dim sm:text-lg" data-reveal>
               I care about writing code that&apos;s easy for the next person to read, and about

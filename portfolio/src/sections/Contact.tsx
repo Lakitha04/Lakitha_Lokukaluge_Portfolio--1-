@@ -17,9 +17,7 @@ export default function Contact() {
   const ref = useReveal<HTMLDivElement>()
   const [status, setStatus] = useState<Status>('idle')
 
-  // NOTE: this is a front-end-only form. Wire it up to a service such as
-  // Formspree, EmailJS, or your own API route before deploying, then send
-  // the payload from handleSubmit below.
+  
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus('sending')
