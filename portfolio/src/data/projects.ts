@@ -28,7 +28,7 @@ export const projects: Project[] = [
     description:
       'A simple and attractive travel blog exploring Sri Lanka — popular destinations, beaches, cultural attractions, wildlife, travel tips and local experiences.',
     tech: ['WordPress', 'Elementor', 'PHP', 'HTML5', 'CSS3', 'JavaScript', 'MySQL'],
-    image: `${base}project-placeholders/travel-blog.svg`,
+    image: `${base}project-placeholders/CeylonTravel.jpg`,
     demo: 'https://slceylon.blog/',
   },
   {
@@ -49,4 +49,25 @@ export const projects: Project[] = [
     image: `${base}project-placeholders/pinnacle-arcade.svg`,
     github: 'https://github.com/Pevinya/ITPM-Shopping-Mall',
   },
+   {
+    id: 'Tredora Clothing',
+    name: 'Tredora Clothing — E Commerce Shopping Mall App',
+    description:
+      'A modern and responsive clothing e-commerce website built with WordPress, allowing customers to browse clothing products, view product details, and explore a seamless online shopping experience.',
+    tech: ['WordPress', 'WooCommerce', 'Elementor', 'PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    image: `${base}project-placeholders/TrendoraCloth.jpg`,
+    // github: 'https://github.com/Pevinya/ITPM-Shopping-Mall',
+  },
+    {
+id: 'portfolio-website',
+name: 'Personal Portfolio Website',
+description:
+'A modern and responsive personal portfolio website showcasing my skills, projects, experience, and professional background with a clean and user-friendly interface.',
+tech: ['TypeScript', 'React.js', 'Tailwind CSS'],
+image:` ${base}project-placeholders/portfolio-1.png`,
+github: 'https://github.com/Lakitha04/Lakitha_Lokukaluge_Portfolio--1-.git',
+},
+    
+  
+  
 ]

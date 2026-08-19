@@ -55,17 +55,19 @@ export default function Projects() {
                     </span>
                   )}
 
-                  {project.demo ? (
+                  {/* {project.demo ? (
                     <a href={project.demo} target="_blank" rel="noreferrer" className="btn-ghost !px-4 !py-2 text-xs">
                       <ExternalLink size={14} />
                       Live Demo
                     </a>
-                  ) : (
+                  ) : 
+                  (
                     <span className="btn-ghost !px-4 !py-2 text-xs opacity-40" aria-disabled="true">
                       <ExternalLink size={14} />
                       Add link
                     </span>
-                  )}
+                  )
+                  } */}
                 </div>
               </div>
             </article>
