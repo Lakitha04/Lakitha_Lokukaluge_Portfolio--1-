@@ -25,7 +25,7 @@ export default function Hero() {
           <p className="mt-2 font-mono text-sm text-ink-faint">{siteConfig.tagline}</p>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-dim sm:text-lg">
-            I build modern, responsive web applications with React, Node.js, and modern web technologies.
+            I build modern, responsive web applications using modern web technologies.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

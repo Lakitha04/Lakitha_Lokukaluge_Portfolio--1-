@@ -16,18 +16,18 @@ export const skillCategories: SkillCategory[] = [
     id: 'backend',
     title: 'Backend',
     description: 'Designing reliable services & APIs',
-    items: ['Node.js', 'Express.js', 'Java Spring Boot', 'REST APIs'],
+    items: ['Node.js', 'Express.js', 'Java Spring Boot', 'REST APIs','PHP'],
   },
   {
     id: 'database',
     title: 'Database',
     description: 'Modeling and querying data at scale',
-    items: ['MongoDB', 'PostgreSQL', 'Firebase, PHP'],
+    items: ['MongoDB', 'PostgreSQL', 'Firebase'],
   },
   {
     id: 'tools',
     title: 'Tools',
     description: 'Day-to-day development workflow',
-    items: ['Git', 'GitHub', 'Postman', 'VS Code, WordPress'],
+    items: ['Git', 'GitHub', 'Postman', 'VS Code', 'WordPress'],
   },
 ]
