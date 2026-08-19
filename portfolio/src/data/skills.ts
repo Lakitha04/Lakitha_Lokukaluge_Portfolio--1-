@@ -22,12 +22,12 @@ export const skillCategories: SkillCategory[] = [
     id: 'database',
     title: 'Database',
     description: 'Modeling and querying data at scale',
-    items: ['MongoDB', 'PostgreSQL', 'Firebase'],
+    items: ['MongoDB', 'PostgreSQL', 'Firebase, PHP'],
   },
   {
     id: 'tools',
     title: 'Tools',
     description: 'Day-to-day development workflow',
-    items: ['Git', 'GitHub', 'Postman', 'VS Code'],
+    items: ['Git', 'GitHub', 'Postman', 'VS Code, WordPress'],
   },
 ]
